@@ -67,7 +67,7 @@ private:
 	class Elem
 	{
 	public:
-		Elem(Fl_Widget&, geFlex& parent, Direction, int size, geompp::Border<int> pad);
+		Elem(Fl_Widget&, Fl_Flex& parent, Direction, int size, geompp::Border<int> pad);
 
 		int  getSize() const;
 		bool isFixed() const;
@@ -78,7 +78,7 @@ private:
 
 	private:
 		Fl_Widget&          m_w;
-		geFlex&             m_parent;
+		Fl_Flex&            m_parent;
 		Direction           m_dir;
 		geompp::Border<int> m_pad;
 	};
