@@ -23,7 +23,7 @@
  *
  * -------------------------------------------------------------------------- */
 
-#include "fl_flex.h"
+#include "fl_flex.hpp"
 #include <cstddef>
 #include <numeric>
 
